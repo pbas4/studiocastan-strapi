@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "studiocastan",
+    "api_key": "119697746833158",
+    "api_secret": "WVty85LyJFnXYZ2n16Ks2bD97v0"
+  }
+}
