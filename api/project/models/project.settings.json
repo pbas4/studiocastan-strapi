@@ -27,6 +27,24 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "top": {
+      "type": "boolean",
+      "default": false
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "categories": {
+      "collection": "category",
+      "via": "projects"
     }
   }
 }
