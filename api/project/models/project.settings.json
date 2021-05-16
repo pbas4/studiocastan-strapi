@@ -45,6 +45,12 @@
     "categories": {
       "collection": "category",
       "via": "projects"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "visible": {
+      "type": "boolean"
     }
   }
 }
