@@ -51,6 +51,9 @@
     },
     "visible": {
       "type": "boolean"
+    },
+    "short_description": {
+      "type": "string"
     }
   }
 }
