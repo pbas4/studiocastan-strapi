@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "short_description": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "linkedin_name": {
+      "type": "string"
+    },
+    "linkedin_link": {
+      "type": "string"
+    },
+    "instagram_name": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "personal_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
